@@ -53,8 +53,8 @@ export function About() {
         <div className="about-content">
           <div className="about-image-container">
             <Image
-              src="/formal.jpg"
-              alt="Steven Simbolon - Formal Photo"
+              src="/me.avif"
+              alt="Steven Simbolon"
               className="about-image"
               width={700}
               height={900}
