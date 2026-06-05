@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { Reveal } from "@/components/Reveal";
 import {
   GitHubIcon,
+  InstagramIcon,
   LinkedInIcon,
   MailIcon,
   WhatsAppIcon,
@@ -28,6 +29,13 @@ const contactLinks: ContactLink[] = [
     label: "WhatsApp",
     value: "+62 815 7480 8829",
     icon: <WhatsAppIcon />,
+  },
+  {
+    href: "https://instagram.com/steyvehnn",
+    external: true,
+    label: "Instagram",
+    value: "@steyvehnn",
+    icon: <InstagramIcon />,
   },
   {
     href: "https://www.linkedin.com/in/steven-simbolon/",
